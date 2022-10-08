@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(235, 169, 179);
+}
+
+header p, h2, section p, h1{
+    color: white;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+main li {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1:hover {
+    background-color: rgb(235, 169, 179);
+    color: black;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
