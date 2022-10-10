@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(125, 123, 123);
+    text-align: center;
+    margin: 0
+}
+
+.circles {
+    width: 2648px;
+    height: 1350px;
+}
+
+.desk {
+    margin: 250px 100px;
+    background-color: rgb(72, 71, 71);
+    padding: 25px;
+    border-radius: 400px;
+}
+
+.graphic {
+    margin: 250px 100px;
+    background-color: rgb(72, 71, 71);
+    padding: 25px;
+    border-radius: 400px;
+}
+
+.person {
+    margin: 250px 100px;
+    background-color: rgb(72, 71, 71);
+    padding: 25px;
+    border-radius: 400px;
+}
