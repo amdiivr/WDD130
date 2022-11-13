@@ -222,3 +222,144 @@ footer a {
         margin-top: 25px;
     }
 }
+
+/* NEW CSS FOR STYLE RIVERS.HTML */
+
+#content2 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo-link2 {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo2{
+    width: 100px;
+}
+#hero-box2 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img2 {
+    width: 1600px;
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: 1/3;
+    grid-template-rows: 1/4;
+}
+#background2 {
+    height: 100%;
+    background-color: #d9c2a3;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.river-img1 {
+    border: 5px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 75%;
+}
+.river-img2 {
+    border: 5px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 75%;
+}
+.river-img3 {
+    border: 5px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 75%;
+}
+.river-img1:hover, .river-img2:hover, .river-img3:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.msg1 {
+    color: #fcfbfb;
+    background-color: #6f7364;
+    line-height: 1.3em;
+    padding: 35px;
+    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1em;
+    padding-bottom: 15px;
+    width: 90%;
+}
+.msg2 {
+    color: #fcfbfb;
+    background-color: #6f7364;
+    line-height: 1.3em;
+    padding: 35px;
+    margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1em;
+    padding-bottom: 15px;
+    width: 90%;
+}
+.msg3 {
+    color: #fcfbfb;
+    background-color: #6f7364;
+    line-height: 1.3em;
+    padding: 35px;
+    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1em;
+    padding-bottom: 15px;
+    width: 90%;
+}
+.river-img1 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.river-img2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.river-img3 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#footer1 {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .river-grid {
+        display: block;
+        height: auto;
+    }
+    #background2 {
+        display: none;
+    }
+    .river-img1, .river-img2, .river-img3 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .msg1, .msg2, .msg3 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
