@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=996&t=st=1669958973~exp=1669959573~hmac=0484035f6a533e60510569284b3570fc39909fcbaa4951722d55c33dfd020070"); }
+  .img2 { background-image: url("https://img.freepik.com/free-photo/cloud-technology-with-futuristic-hologram-smartwatch_53876-124625.jpg?t=st=1669926828~exp=1669927428~hmac=1416cfa8b3228c318bdc550f9e70316e563fba2690d59ad5b16ddccf2597b404"); }
+  .img3 { background-image: url("https://img.freepik.com/free-photo/hands-digital-universe-background_53876-97068.jpg?t=st=1669926828~exp=1669927428~hmac=252e007e944ae90be1ea3edc3ee6043a4f75af8a8811554729059b6cf71e5230"); }
+  .img4 { background-image: url("https://as2.ftcdn.net/v2/jpg/04/81/98/73/1000_F_481987350_92qQJ3ArdRVvdMsXR8ku6T1BpwBZtsh8.jpg"); }
+  .img5 { background-image: url("https://img.freepik.com/premium-photo/metaverse-universe-concept-digital-neural-networkbusiness-man-hand-touching-introduction_102957-964.jpg?w=996"); }
+  .img6 { background-image: url("https://as2.ftcdn.net/v2/jpg/02/84/33/11/1000_F_284331189_TPFof7Qkx7DwRrwXfYSzxI22NgToTTmn.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #2F4858;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
