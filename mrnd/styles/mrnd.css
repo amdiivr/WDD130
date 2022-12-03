@@ -207,3 +207,78 @@ footer a {
         margin-top: 25px;
     }
 }
+
+/* CSS for childpage TECHNEWS */
+
+/* Main Content News */
+
+.news-grid {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#background2 {
+    height: 100%;
+    background-color:#33658A;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+.newsfirst {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.msg1 {
+    margin: 5px auto;
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+.newssecond {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.msg2 {
+    margin: 5px auto;
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+.newsthird {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.msg3 {
+    margin: 5px auto;
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 900px) {
+    .news-grid {
+        display: block;
+        height: auto;
+    }
+    .newsfirst, .newssecond, .newsthird { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background2 {
+        display: none;
+    }
+    .msg1, .msg2, .msg-news2, .msg-review1, .msg3 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
