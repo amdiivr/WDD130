@@ -8,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: "IM Fell Great Primer SC";
+}
 
 /* FIRTS PANEL */
 
@@ -280,5 +283,57 @@ footer a {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+}
+
+/* CSS for childpage TECHREVIEW */
+
+/* Main Content News */
+
+.review-grid {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#background3 {
+    height: 100%;
+    background-color:#33658A;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+.videoreview {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.reviewsecond {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.reviewthird {
+    margin: 20px auto;
+    align-self: stretch;
+    width: 90%;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 900px) {
+    .review-grid {
+        display: block;
+        height: auto;
+    }
+    .videoreview, .reviewsecond, .reviewthird { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background3 {
+        display: none;
     }
 }
